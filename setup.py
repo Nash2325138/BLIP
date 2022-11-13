@@ -18,4 +18,5 @@ setup(
     ],
     include_package_data=True,
     extras_require={'dev': ['pytest']},
+    package_data={'configs': ['med_config.json']},
 )
